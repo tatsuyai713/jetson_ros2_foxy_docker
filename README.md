@@ -3,7 +3,8 @@ Jetson Docker Container for ROS2 Foxy with CUDA, CUDNN and TensorRT
 
 This docker container is based on l4t-ml.
 
-Docker HUb
+Docker Hub
+
 https://hub.docker.com/repository/docker/tatsuyai713/jetson_ros2_foxy
 
 ## (For Jetson User) Fix nvidia container
