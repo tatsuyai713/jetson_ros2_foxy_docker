@@ -8,3 +8,4 @@ sudo sh -c 'echo "deb [arch=amd64,arm64] http://packages.ros.org/ros2/ubuntu \
 sudo apt-get update
 sudo apt update
 sudo apt install -y ros-foxy-desktop
+sudo apt install -y python3-colcon-common-extensions
