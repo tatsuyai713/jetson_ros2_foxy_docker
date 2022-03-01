@@ -25,7 +25,16 @@ please keep only one file l4t.csv.
 ```
 
  - after setup, you can access the inside container by same username and hostname is Docker- + Host hostname.
- - next time, you can enter the inside container with only using "./launch_container.sh" command
+ - next time, you can enter the inside container with only using
+
+```
+./launch_container.sh
+```
+ - if you want to commit the change inside container, please type this command.
+
+```
+./launch_container.sh commit
+```
 
 ## Setup for Ubuntu 20.04 and ROS2 Foxy
  1. first of all, you have to execute "upgrade_to_20.04.sh" for upgrading the Ubuntu OS. (execute do-release-upgrade command)
