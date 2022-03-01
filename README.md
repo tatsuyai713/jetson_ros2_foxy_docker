@@ -3,7 +3,7 @@ Jetson Docker Container for ROS2 Foxy with CUDA, CUDNN and TensorRT
 
 This docker container is based on l4t-ml.
 
-## Fix nvidia container
+## (For Jetson User) Fix nvidia container
 please refer this.
 https://github.com/dusty-nv/jetson-containers/issues/108
 
@@ -41,3 +41,7 @@ please keep only one file l4t.csv.
  2. execute "setup_python3.6.sh" for installing Python3.6. after that you can use pytorch with Python3.6. 
  3. execute "install_nvidia_packages.sh"
  4. execute "install_ros2_foxy.sh" if you want to use ROS2 Foxy.
+
+
+## References
+https://zenn.dev/marbocub/articles/2fa02378030759
