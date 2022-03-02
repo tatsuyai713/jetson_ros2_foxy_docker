@@ -5,7 +5,7 @@ ARG GID=9001
 ARG UNAME=nvidia
 ARG HOSTNAME=docker
 
-ARG NEW_HOSTNAME=Docker-${HOSTNAME}
+ARG NEW_HOSTNAME=Docker-${HOSTNAME}print(torch.cuda.device_count())
 
 ARG USERNAME=$UNAME
 ARG HOME=/home/$USERNAME
@@ -58,6 +58,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
 RUN apt upgrade -y && apt autoremove -y && apt clean && \
         rm -rf /var/lib/apt/lists/*
 
+RUN gpasswd -a $USERNAME video
 
 
 # set locale
