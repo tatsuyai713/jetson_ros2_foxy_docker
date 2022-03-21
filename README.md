@@ -1,4 +1,9 @@
-/etc/docker/daemon.json# jetson_ros2_foxy_docker
+# *******CURRENTLY THIS SCRIPTS CANNOT WORK CORRECTLY*********
+
+# Jetson Docker Container for ROS2 Foxy with CUDA, CUDNN and TensorRT
+
+This docker container is based on l4t-ml.
+# jetson_ros2_foxy_docker
 Jetson Docker Container for ROS2 Foxy with CUDA, CUDNN and TensorRT
 
 This docker container is based on l4t-ml.
