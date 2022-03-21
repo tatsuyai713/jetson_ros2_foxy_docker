@@ -1,5 +1,7 @@
 # CURRENTLY THIS SCRIPTS CANNOT WORK CORRECTLY
 
+Because do-release-upgrade cannot work in this container.
+
 # Jetson Docker Container for ROS2 Foxy with CUDA, CUDNN and TensorRT
 
 This docker container is based on l4t-ml.
